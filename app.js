@@ -3,6 +3,10 @@ let count = 0;
 let userInput = parseInt(document.getElementById("user-input").value);
 
 const submitButton = () => {
+     if((userInput > 20) || (userInput < 1)) { 
+        alert("please enter number from 1 to 20!") 
+        return;
+    }
         if(userInput === result){
             alert("Correct number! You have a reward!");
             return;

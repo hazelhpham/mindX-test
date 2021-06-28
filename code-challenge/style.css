@@ -11,14 +11,23 @@
 }
 h2{
      width:100%;
+     height:50px;
      background-color:red;
      color:white;
      text-align:center;
+     padding:4%;
 }
 .prompt{
     text-align:center;
     padding-top: 8%;
     font-size:1.3vw;
-    background-color:green;
+    background-color:aqua;
     min-height:200px;
+}
+
+.btn{
+    background-color:green;
+    width:100px;
+    height:30px;
+    
 }

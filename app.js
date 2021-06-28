@@ -13,9 +13,12 @@ const submitButton = () => {
             count++;
             if(count === 3){
                 alert("Time's up. The correct number is " + result);
+                count = 0; 
+                return;
             }
             if(userInput === result){
                 alert("Correct number! You have a reward!");
+                return;
             }
         }
         
